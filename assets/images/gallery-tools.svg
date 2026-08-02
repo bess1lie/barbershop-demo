@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-tools" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg-tools)"/>
+  <!-- Scissors crossed with comb -->
+  <g transform="translate(180, 80)">
+    <!-- Scissors -->
+    <path d="M60 40 L180 200 M180 40 L60 200" stroke="#d4d4d8" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="50" cy="30" r="18" fill="none" stroke="#c2410c" stroke-width="6"/>
+    <circle cx="190" cy="30" r="18" fill="none" stroke="#c2410c" stroke-width="6"/>
+    <circle cx="120" cy="120" r="6" fill="#ea580c"/>
+  </g>
+  <!-- Comb -->
+  <rect x="150" y="260" width="300" height="35" rx="4" fill="#27272a" stroke="#3f3f46" stroke-width="2"/>
+  <path d="M160 260 L160 290 M170 260 L170 290 M180 260 L180 290 M190 260 L190 290 M200 260 L200 290 M210 260 L210 290 M220 260 L220 290 M230 260 L230 290 M240 260 L240 290 M250 260 L250 290 M260 260 L260 290 M270 260 L270 290 M280 260 L280 290 M290 260 L290 290 M300 260 L300 290 M310 260 L310 290 M320 260 L320 290 M330 260 L330 290 M340 260 L340 290 M350 260 L350 290 M360 260 L360 290 M370 260 L370 290 M380 260 L380 290 M390 260 L390 290 M400 260 L400 290 M410 260 L410 290 M420 260 L420 290 M430 260 L430 290 M440 260 L440 290" stroke="#ea580c" stroke-width="3"/>
+  <text x="300" y="355" font-family="system-ui, sans-serif" font-size="14" fill="#888888" text-anchor="middle" font-weight="500">Инструменты премиального класса</text>
+</svg>

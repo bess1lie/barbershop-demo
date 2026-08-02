@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-ruslan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1f1f"/>
+      <stop offset="100%" stop-color="#121212"/>
+    </linearGradient>
+    <linearGradient id="accent-ruslan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="16" fill="url(#bg-ruslan)"/>
+  <circle cx="200" cy="180" r="140" fill="#262626" opacity="0.5"/>
+  <path d="M110 340 C110 270 150 250 200 250 C250 250 290 270 290 340 Z" fill="#2e2e2e"/>
+  <rect x="180" y="195" width="40" height="55" rx="8" fill="#3a3a3a"/>
+  <path d="M150 160 C150 110 170 90 200 90 C230 90 250 110 250 160 C250 200 230 215 200 215 C170 215 150 200 150 160 Z" fill="#3a3a3a"/>
+  <!-- Creative hairstyle -->
+  <path d="M145 130 C150 75 185 70 210 75 C235 80 255 100 250 135 C235 110 215 105 200 105 C180 105 160 115 145 130 Z" fill="url(#accent-ruslan)"/>
+  <path d="M165 175 C165 195 180 205 200 205 C220 205 235 195 235 175 C225 185 215 188 200 188 C185 188 175 185 165 175 Z" fill="url(#accent-ruslan)"/>
+  <circle cx="200" cy="300" r="12" fill="none" stroke="#c2410c" stroke-width="2"/>
+  <path d="M195 300 L205 300 M200 295 L200 305" stroke="#c2410c" stroke-width="2"/>
+</svg>

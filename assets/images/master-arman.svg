@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-arman" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1f1f"/>
+      <stop offset="100%" stop-color="#121212"/>
+    </linearGradient>
+    <linearGradient id="accent-arman" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="16" fill="url(#bg-arman)"/>
+  <circle cx="200" cy="180" r="140" fill="#262626" opacity="0.5"/>
+  <!-- Shoulder / Bust -->
+  <path d="M110 340 C110 270 150 250 200 250 C250 250 290 270 290 340 Z" fill="#2e2e2e"/>
+  <!-- Neck -->
+  <rect x="180" y="195" width="40" height="55" rx="8" fill="#3a3a3a"/>
+  <!-- Head Silhouette -->
+  <path d="M150 160 C150 110 170 90 200 90 C230 90 250 110 250 160 C250 200 230 215 200 215 C170 215 150 200 150 160 Z" fill="#3a3a3a"/>
+  <!-- Classic Haircut & Beard -->
+  <path d="M148 140 C145 105 170 80 200 80 C230 80 255 105 252 140 C240 120 220 110 200 110 C180 110 160 120 148 140 Z" fill="url(#accent-arman)"/>
+  <!-- Sculpted Beard -->
+  <path d="M155 165 C155 210 175 230 200 230 C225 230 245 210 245 165 C235 180 220 190 200 190 C180 190 165 180 155 165 Z" fill="url(#accent-arman)"/>
+  <!-- Scissors emblem -->
+  <path d="M190 300 L210 320 M210 300 L190 320" stroke="#c2410c" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="187" cy="297" r="4" fill="none" stroke="#c2410c" stroke-width="2"/>
+  <circle cx="213" cy="297" r="4" fill="none" stroke="#c2410c" stroke-width="2"/>
+</svg>

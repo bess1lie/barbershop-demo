@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-int" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c1c1c"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="orange-glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#c2410c"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg-int)"/>
+  <!-- Mirror contour -->
+  <rect x="200" y="40" width="200" height="240" rx="100" fill="#171717" stroke="#333333" stroke-width="4"/>
+  <rect x="210" y="50" width="180" height="220" rx="90" fill="#222222" opacity="0.6"/>
+  <!-- Ambient light glow -->
+  <ellipse cx="300" cy="50" rx="120" ry="15" fill="url(#orange-glow)" opacity="0.8"/>
+  <!-- Barber Chair Silhouette -->
+  <rect x="260" y="240" width="80" height="15" rx="4" fill="#333333"/>
+  <rect x="270" y="255" width="60" height="70" fill="#262626"/>
+  <path d="M240 210 C240 180 360 180 360 210 L350 250 L250 250 Z" fill="#2a2a2a"/>
+  <rect x="285" y="325" width="30" height="40" fill="#1f1f1f"/>
+  <ellipse cx="300" cy="365" rx="50" ry="12" fill="#333333"/>
+  <!-- Text Label -->
+  <text x="300" y="388" font-family="system-ui, sans-serif" font-size="14" fill="#888888" text-anchor="middle" font-weight="500">Интерьер премиального лаунжа</text>
+</svg>

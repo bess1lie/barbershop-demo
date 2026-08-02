@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-timur" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1f1f1f"/>
+      <stop offset="100%" stop-color="#121212"/>
+    </linearGradient>
+    <linearGradient id="accent-timur" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="16" fill="url(#bg-timur)"/>
+  <circle cx="200" cy="180" r="140" fill="#262626" opacity="0.5"/>
+  <path d="M110 340 C110 270 150 250 200 250 C250 250 290 270 290 340 Z" fill="#2e2e2e"/>
+  <rect x="180" y="195" width="40" height="55" rx="8" fill="#3a3a3a"/>
+  <path d="M150 160 C150 110 170 90 200 90 C230 90 250 110 250 160 C250 200 230 215 200 215 C170 215 150 200 150 160 Z" fill="#3a3a3a"/>
+  <!-- Hair & Full Beard -->
+  <path d="M152 145 C148 100 170 82 200 82 C230 82 252 100 248 145 C238 125 220 115 200 115 C180 115 162 125 152 145 Z" fill="url(#accent-timur)"/>
+  <path d="M152 160 C150 215 170 235 200 235 C230 235 250 215 248 160 C235 185 220 195 200 195 C180 195 165 185 152 160 Z" fill="url(#accent-timur)"/>
+  <!-- Straight Razor Icon -->
+  <path d="M175 305 L215 295 L225 300 L185 310 Z" fill="#c2410c"/>
+</svg>
