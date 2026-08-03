@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (burgerToggle) {
-    burgerToggle.addEventListener('click', openMenu);
+    burgerToggle.addEventListener('click', () => mobileMenu.classList.contains('is-active') ? closeMenu() : openMenu());
   }
 
   if (burgerClose) {
